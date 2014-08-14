@@ -1,0 +1,88 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bootStrap' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'bootStrap', null ]
+7 verbose cache add name=undefined spec="bootStrap" args=["bootStrap",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'bootStrap',
+8 verbose parsed url   path: 'bootStrap',
+8 verbose parsed url   href: 'bootStrap' }
+9 silly lockFile 78667779-bootStrap bootStrap
+10 verbose lock bootStrap C:\Program Files\nodejs\node_cache\78667779-bootStrap.lock
+11 silly lockFile 78667779-bootStrap bootStrap
+12 silly lockFile 78667779-bootStrap bootStrap
+13 verbose addNamed [ 'bootStrap', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile ef31dca8-bootStrap bootStrap@
+16 verbose lock bootStrap@ C:\Program Files\nodejs\node_cache\ef31dca8-bootStrap.lock
+17 silly addNameRange { name: 'bootStrap', range: '*', hasData: false }
+18 verbose request where is /bootStrap
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id d4d1b5b8d273d88e
+21 verbose url raw /bootStrap
+22 verbose url resolving [ 'https://registry.npmjs.org/', './bootStrap' ]
+23 verbose url resolved https://registry.npmjs.org/bootStrap
+24 verbose request where is https://registry.npmjs.org/bootStrap
+25 info trying registry request attempt 1 at 23:02:45
+26 http GET https://registry.npmjs.org/bootStrap
+27 http 404 https://registry.npmjs.org/bootStrap
+28 verbose headers { date: 'Thu, 14 Aug 2014 15:01:32 GMT',
+28 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 verbose headers   'content-type': 'application/json',
+28 verbose headers   'cache-control': 'max-age=0',
+28 verbose headers   'content-length': '52',
+28 verbose headers   'accept-ranges': 'bytes',
+28 verbose headers   via: '1.1 varnish',
+28 verbose headers   age: '0',
+28 verbose headers   'x-served-by': 'cache-ty67-TYO',
+28 verbose headers   'x-cache': 'MISS',
+28 verbose headers   'x-cache-hits': '0',
+28 verbose headers   'x-timer': 'S1408028492.631320,VS0,VE212',
+28 verbose headers   'keep-alive': 'timeout=10, max=50',
+28 verbose headers   connection: 'Keep-Alive' }
+29 silly registry.get cb [ 404,
+29 silly registry.get   { date: 'Thu, 14 Aug 2014 15:01:32 GMT',
+29 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=0',
+29 silly registry.get     'content-length': '52',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1408028492.631320,VS0,VE212',
+29 silly registry.get     'keep-alive': 'timeout=10, max=50',
+29 silly registry.get     connection: 'Keep-Alive' } ]
+30 silly lockFile ef31dca8-bootStrap bootStrap@
+31 silly lockFile ef31dca8-bootStrap bootStrap@
+32 error 404 404 Not Found: bootStrap
+32 error 404
+32 error 404 'bootStrap' is not in the npm registry.
+32 error 404 You should bug the author to publish it
+32 error 404 It was specified as a dependency of 'drfHelper'
+32 error 404
+32 error 404 Note that you can also install from a
+32 error 404 tarball, folder, or http url, or git url.
+33 error System Windows_NT 6.1.7600
+34 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bootStrap"
+35 error cwd c:\nodejs\drfHelper
+36 error node -v v0.10.30
+37 error npm -v 1.4.21
+38 error code E404
+39 verbose exit [ 1, true ]
